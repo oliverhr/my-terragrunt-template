@@ -1,0 +1,10 @@
+repos:
+- repo: local
+  hooks:
+  - id: terragrunt_fmt
+    name: Terragrunt fmt
+    description: Rewrites all Terragrunt configuration files to a canonical format.
+    language: script
+    entry: .git-hooks/terragrunt_fmt.sh
+    files: (\.hcl)$
+    exclude: \.terraform\/.*$
