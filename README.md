@@ -2,7 +2,7 @@
 
 # Project info
 
-This code is to be used as the template for a single or multi-account terragrunt proyect.
+This code is to be used as the template for a single or multi-account terragrunt project.
 
 
 ## How do you deploy the infrastructure in this repo?
